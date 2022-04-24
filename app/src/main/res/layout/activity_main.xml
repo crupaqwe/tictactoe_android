@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89A0EF"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/TekstaRinda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10pt"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/gameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Player1 Won!"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/PirmaRinda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text=""
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/OtraRinda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TresaRinda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="7pt"
+            android:background="@android:color/white"
+            android:text="" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TuksaRinda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20pt" />
+
+    <TableRow
+        android:id="@+id/CeturtaRinda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#8BEA97"
+            android:text="Main Menu"
+            android:textSize="16sp" />
+
+    </TableRow>
+</TableLayout>
